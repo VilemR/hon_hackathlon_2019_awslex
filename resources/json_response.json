@@ -1,0 +1,26 @@
+{
+    "sessionAttributes": {
+    "key1": "value1",
+    "key2": "value2"
+  },
+  "recentIntentSummaryView": [
+    {
+       "intentName": "Name",
+       "checkpointLabel": "Label",
+       "slots": {
+         "slot name": "value",
+         "slot name": "value"
+        },
+       "confirmationStatus": "None, Confirmed, or Denied (intent confirmation, if configured)",
+        "dialogActionType": "ElicitIntent, ElicitSlot, ConfirmIntent, Delegate, or Close",
+        "fulfillmentState": "Fulfilled or Failed",
+        "slotToElicit": "Next slot to elicit"
+    }
+  ],
+  "dialogAction": {
+    "type": "ElicitIntent, ElicitSlot, ConfirmIntent, Delegate, or Close",
+
+    Full structure based on the type field. See below for details.
+
+  }
+}
